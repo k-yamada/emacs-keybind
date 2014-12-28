@@ -1,0 +1,17 @@
+{
+  "name": "emacs-keybind",
+  "main": "./lib/emacs-keybind",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+  },
+  "repository": "https://github.com/atom/emacs-keybind",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "underscore-plus": "1.x",
+    "event-kit": "^0.7.2"
+  }
+}

@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle emacs-keybind'
+      'command': 'emacs-keybind:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'emacs-keybind'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'emacs-keybind:toggle'
+        }
+      ]
+    ]
+  }
+]

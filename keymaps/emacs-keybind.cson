@@ -1,0 +1,98 @@
+'body':
+  'ctrl-g': 'core:cancel'
+  'alt-x': 'command-palette:toggle'
+  'ctrl-x k': 'core:close'
+  'ctrl-x ctrl-f': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-x b': 'fuzzy-finder:toggle-buffer-finder'
+
+'body.emacs-keybind':
+  "ctrl-p": "unset!",
+  "ctrl-n": "unset!",
+  "ctrl-b": "unset!",
+  "ctrl-f": "unset!",
+
+'.editor.emacs-keybind':
+  'ctrl-x 3': 'pane:split-right'
+  'ctrl-x 2': 'pane:split-down'
+  'ctrl-x 0': 'pane:close'
+  'ctrl-x 1': 'pane:close-other-items'
+  'ctrl-x o': 'window:focus-next-pane'
+  'ctrl-f': 'emacs-keybind:forward-char'
+  'ctrl-b': 'emacs-keybind:backward-char'
+  'ctrl-n': 'emacs-keybind:next-line'
+  'ctrl-p': 'emacs-keybind:previous-line'
+  'ctrl-l': 'emacs-keybind:recenter-top-bottom'
+  'ctrl-k': 'editor:cut-to-end-of-line'
+  'ctrl-g': 'core:cancel'
+  'ctrl-y': 'core:paste'
+  'ctrl-w': 'core:cut'
+  'ctrl-v': 'emacs-keybind:scroll-up'
+  'ctrl-s': 'find-and-replace:show'
+  'ctrl-r': 'find-and-replace:show'
+  'ctrl-j': 'editor:newline'
+  'ctrl-/': 'core:undo'
+  'ctrl-o': 'emacs-keybind:open-line'
+  'ctrl-t': 'emacs-keybind:transpose-chars'
+  'ctrl-_': 'core:undo'
+  'ctrl-space': 'emacs-keybind:set-mark'
+  'ctrl-x ctrl-s': 'core:save'
+  'ctrl-x ctrl-u': 'emacs-keybind:upcase-region'
+  'ctrl-x ctrl-l': 'emacs-keybind:downcase-region'
+  'ctrl-x ctrl-t': 'emacs-keybind:transpose-lines'
+  'ctrl-x h': 'emacs-keybind:mark-whole-buffer'
+  'ctrl-x ctrl-x': 'emacs-keybind:exchange-point-and-mark'
+  'ctrl-x 0': 'pane:close'
+  'ctrl-x 1': "pane:close-other-items",
+  'ctrl-x 2': 'pane:split-down'
+  'ctrl-x 3': 'pane:split-right'
+  'ctrl-x o': 'window:focus-next-pane'
+  'alt-f': 'emacs-keybind:forward-word'
+  'alt-b': 'emacs-keybind:backward-word'
+  'alt-d': 'emacs-keybind:kill-word'
+  'alt-q': 'autoflow:reflow-selection'
+  'alt-t': 'emacs-keybind:transpose-words'
+  'alt-w': 'emacs-keybind:copy'
+  'alt-;': 'editor:toggle-line-comments'
+  'alt-v': 'emacs-keybind:scroll-down'
+  'alt-<': 'core:move-to-top'
+  'alt->': 'core:move-to-bottom'
+  'alt-m': 'editor:move-to-first-character-of-line'
+  'alt-/': 'autocomplete:toggle'
+  'alt-.': 'symbols-view:toggle-file-symbols'
+  'alt-\\': 'emacs-keybind:delete-horizontal-space'
+  'alt-backspace': 'emacs-keybind:backward-kill-word'
+  'alt-delete': 'emacs-keybind:backward-kill-word'
+  'alt-space': 'emacs-keybind:just-one-space'
+  'alt-[': 'emacs-keybind:backward-paragraph'
+  'alt-]': 'emacs-keybind:forward-paragraph'
+  'up': 'emacs-keybind:previous-line'
+  'down': 'emacs-keybind:next-line'
+  'left': 'emacs-keybind:backward-char'
+  'right': 'emacs-keybind:forward-char'
+
+'.find-and-replace':
+  'ctrl-s': 'find-and-replace:find-next'
+  'ctrl-r': 'find-and-replace:find-previous'
+
+'.go-to-line .mini.editor input':
+  'ctrl-g': 'core:cancel'
+
+'.tree-view-dialog .mini.editor':
+  'ctrl-g': 'core:cancel'
+
+'.tool-panel.panel-left, .tool-panel.panel-right':
+  'ctrl-g': 'tool-panel:unfocus'
+
+'.platform-win32':
+  'alt-g g': 'go-to-line:toggle'
+  'ctrl-g': 'core:cancel'
+
+'.platform-win32 .go-to-line .mini.editor input':
+  'ctrl-g': 'core:cancel'
+
+'.platform-darwin':
+  'alt-g g': 'go-to-line:toggle'
+  'ctrl-g': 'core:cancel'
+
+'.platform-darwin .go-to-line .mini.editor input':
+  'ctrl-g': 'core:cancel'
